@@ -1,4 +1,4 @@
-Init Git
+init git
 ===
 *Crash Course Git Tutorial*
 
