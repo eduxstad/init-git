@@ -70,6 +70,22 @@ or
 
 `git remote remove NAME URL `
 
+Branches
+---
+Sometimes it is necessary to create a testing enviorment to try out different features, or to be free to make modifications without worrying about creating problems for other collaborators. Braches are copies of the repo that are independent from one another and which can be switched at will. 
+
+To switch to a different branch
+
+`git checkout BRANCHNAME `
+
+To create a new branch 
+
+`git checkout -b BRANCHNAME `
+
+When creating a new branch, the state of the new branch will match the state of the branch where the new branch was created. When switching between branches, files that are commited (tracked) by git will change, while untracked files will remain the same, no matter which branch the repo is at. 
+
+> Note: The default branch of a repo is "master"
+
 Help
 ---
 To list the documentation for any git command, or to view options and syntax use the command
