@@ -1,6 +1,6 @@
-init git
+init-git
 ===
-*Crash Course Git Tutorial*
+ *Crash Course Git Tutorial*
 
 Intro
 ---
